@@ -15,10 +15,6 @@ body{
 	width:1200px;
 	margin:0 auto;
 }
-/*top标题栏*/
-/*问题
-（1）老师为什莫我在.logo不设置float .top-right的文字就不能和.logo在同一平面上呢
-（2）老师这里用div和p实现有什莫区别吗*/
 .top{
 	width:100%;
 	height:25px;
@@ -184,7 +180,6 @@ body{
 	background:url('../img/icon-web.png') no-repeat 0 -40px;
 	text-indent: 17px;
 }
-/*老师我第四个小图片和文字没有设置好请老师看看*/
 .introduce .wrap .wrap_content .wrap_content_font div.wrap_content_font_four{
 	background:url('../img/icon-web.png') no-repeat 2px -80px;
 	text-indent: 17px;
@@ -198,7 +193,6 @@ body{
 	margin-top:15px;
 	float: right;
 }
-/*问题：老师为什莫将color：#60bff2放在.system .system_list中底下字体就不是白色呢*/
 .system{
 	margin-top:50px;
 	height:25px;
@@ -360,7 +354,6 @@ body{
 	line-height: 80px;
 	border: #F7F7F7 2px solid;
 }
-/*问题：框中文字没有对齐请老师讲一下怎末才能对齐*/
 .system_int_one_right{
 	width:320px;
 	height:350px;
@@ -455,7 +448,6 @@ body{
 	background:#60bff2;
 	color:#fff;
 }
-/*问题：老师关于浮动覆盖元素的问题是怎末回事*/
 .footer{
 	width:100%;
 	height:60px;

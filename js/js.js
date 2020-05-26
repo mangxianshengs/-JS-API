@@ -28,8 +28,6 @@ var deleteClassName=function(obj,cls){
 		obj.setAttribute("class",basename.split(cls).join(" ").replace(/\s+/g,' '));
 	}
 };
-/*问题 老师为什莫我给body绑定点击事件之后再点击菜单显示就不好使了呢
-findTag("body")[0].addEventListener("click",navSelectedOnclick,false);*/
 /*搜索栏变量*/
 var nav_selected=findId("nav-selected"),
 isLook=false,
