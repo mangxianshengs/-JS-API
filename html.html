@@ -1,0 +1,584 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>医院挂号系统</title>
+	<link rel="stylesheet" type="text/css" href="css/base.css">
+</head>
+<body>
+	<div class="top">
+		<div class="wrap">
+			<div class="logo">010-114/116114电话预约</div>
+		    <div class="top-right">欢迎来到城市挂号统一平台
+			<a href="javascript(0)">登录</a>
+			<a href="javascript(0)">注册</a>
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			<a href="javascript(0)">帮助中心</a>
+		    </div>
+		</div>
+	</div>
+	<div class="header">
+		<div class="wrap">
+			<div class="logo"><img src="img/logo.png"/></div>
+		    <div class="nav">
+			  <div class="nav-selected" id="nav-selected">医院&nbsp;&nbsp;&nbsp;&nbsp;</div>
+			  <div class="nav-selected-list">
+				<div class="list">科室</div>
+				<div class="list">疾病</div>
+				<div class="list">医院</div>
+			  </div>
+			  <input type="text" name="" class="nav-input" placeholder="请输入搜索内容" />
+			  <a href="#" class="nav-submit"></a>
+		    </div>
+		</div>
+	</div>
+	<div class="nav">
+		<div class="wrap">
+			<a href="#">首页</a>
+		    <a href="#">按医院挂号</a>
+		    <a href="#">按科室挂号</a>
+		    <a href="#">按疾病挂号</a>
+		    <a href="#">最新公告</a>
+		    <a href="#">社会知名医院</a>
+		</div>
+	</div>
+	<div class="introduce">
+		<div class="wrap">
+			<div class="wrap_content">
+				<div class="wrap_content_title">
+					<p>北京协和医院<a href="#" class="wrap_content_title_a">&nbsp;&nbsp;&nbsp;&nbsp;关注医院</a></p>
+					<div class="wrap_content_title_list">
+						<p><a href="#">等级：</a>三级甲等</p>
+						<p><a href="#">区域：</a>东城区</p>
+						<p><a href="#">分类：</a>中国医学院所属区域</p>
+					</div>
+				</div>
+				<div class="wrap_content_picture_one"><img src="img/hospital-1.jpg"></div>
+				<div class="wrap_content_font">
+					<div class="wrap_content_font_one">[东院]北京市东城区帅府园一号 [西院]北京市西城区大仓木胡同41号</div>
+					<div class="wrap_content_font_two">http://www.pumch.cn/</div>
+					<div class="wrap_content_font_three">东院咨询台：010-69155564；西院咨询台：010-69158010</div>
+					<div class="wrap_content_font_four">
+						<div class="wrap_content_font_four_content">东院：106，108，110，111，116，684，685到东单路口北；41、104快，814到东单路口南；1，52，728，802到东单路口西；20，25，37，39，到东单路口东；103，104，420，803到新东安市场；地铁1、5号线到东单。西院：68到辟才胡同东口；更多乘车路线详见须知</div>
+					</div>
+				</div>
+				<div class="wrap_content_picture_two"><img src="img/map-1.png"></div>
+			</div>
+		</div>
+	</div>
+	<div class="system_main">
+		<div class="system wrap">
+		   <div class="system_list system_list_active">预约挂号</div>
+		   <div class="system_list">医院介绍</div>
+		   <div class="system_list">预约须知</div>
+		   <div class="system_list">停诊信息</div>
+		   <div class="system_list">查询取消</div>
+	    </div>
+	<div class="system_de wrap"> 
+		<p>&nbsp;&nbsp;科室排班表&nbsp;&nbsp;&nbsp;&nbsp;<span>返回科室列表</span></p>
+	</div>
+	</div>
+	<div class="system_int">
+		<div class="system_int_one">
+			<div class="system_int_one_left">
+				<div class="system_int_one_left_title">开放预约科室</div>
+				<div class="system_int_one_left_list_left">
+					<div class="system_int_one_left_list_left_line">2301</div>
+					<div class="system_int_one_left_list_left_line">专科</div>
+					<div class="system_int_one_left_list_left_line">内科</div>
+					<div class="system_int_one_left_list_left_line">内科</div>
+				</div>
+				<div class="system_int_one_left_list_right">
+					<div class="system_int_one_left_list_right_line">
+						<p><span class="one_left">特殊门诊科</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;特殊门诊科&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;特殊门诊科&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;特殊门诊科</p>
+				        <p>特殊门诊科&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;特殊门诊科&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;特殊门诊科&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;特殊门诊科</p>
+				        <p>特殊门诊科&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;特殊门诊科 </p>
+					</div>
+					<div class="system_int_one_left_list_right_line">
+						<p>特殊门诊科&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;特殊门诊科&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;特殊门诊科&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;特殊门诊科</p>
+				        <p>特殊门诊科&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;特殊门诊科&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;特殊门诊科&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;特殊门诊科</p>
+				        <p>特殊门诊科&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;特殊门诊科 </p>
+					</div>
+					<div class="system_int_one_left_list_right_line">
+						<p>特殊门诊科&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;特殊门诊科&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;特殊门诊科&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;特殊门诊科</p>
+				        <p>特殊门诊科&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;特殊门诊科&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;特殊门诊科&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;特殊门诊科</p>
+				        <p>特殊门诊科&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;特殊门诊科 </p>
+					</div>
+					<div class="system_int_one_left_list_right_line">
+						<p>特殊门诊科&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;特殊门诊科&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;特殊门诊科&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;特殊门诊科</p>
+				        <p>特殊门诊科&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;特殊门诊科&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;特殊门诊科&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;特殊门诊科</p>
+				        <p>特殊门诊科&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;特殊门诊科 </p>
+					</div>
+				</div>
+			</div>
+			<div class="system_int_one_left_de_a">
+				<div class="system_int_one_left_de">
+				<div class="system_int_one_left_de_left">
+					<img src="img/icon-scheduling-left.jpg" class="button_left">
+					<div class="system_int_one_left_de_left_top">上午</div>
+					<div class="system_int_one_left_de_left_middle">下午</div>
+					<div class="system_int_one_left_de_left_bottom">晚上</div>
+				</div>
+				<div class="system_int_one_left_de_middle">
+					<table class="middle_table">
+						<tr>
+							<td>星期六<br/>2019-04-29</td>
+							<td>星期六<br/>2019-04-30</td>
+							<td>星期六<br/>2019-05-01</td>
+							<td>星期六<br/>2019-05-02</td>
+							<td>星期六<br/>2019-05-03</td>
+							<td>星期六<br/>2019-05-04</td>
+							<td>星期六<br/>2019-05-05</td>
+							<td>星期六<br/>2019-05-06</td>
+							<td>星期六<br/>2019-05-07</td>
+							<td>星期六<br/>2019-05-08</td>
+							<td>星期六<br/>2019-05-09</td>
+							<td>星期六<br/>2019-05-10</td>
+							<td>星期六<br/>2019-05-11</td>
+							<td>星期六<br/>2019-05-12</td>
+							<td>星期六<br/>2019-05-13</td>
+							<td>星期六<br/>2019-05-14</td>
+							<td>星期六<br/>2019-05-15</td>
+							<td>星期六<br/>2019-05-16</td>
+							<td>星期六<br/>2019-05-17</td>
+							<td>星期六<br/>2019-05-18</td>
+							<td>星期六<br/>2019-05-19</td>
+						</tr>
+						<tr>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+						</tr>
+						<tr>
+							<td>约满</td>
+							<td>约满</td>
+							<td>约满</td>
+							<td>约满</td>
+							<td>约满</td>
+							<td>约满</td>
+							<td>约满</td>
+							<td>约满</td>
+							<td>约满</td>
+							<td>约满</td>
+							<td>约满</td>
+							<td>约满</td>
+							<td>约满</td>
+							<td>约满</td>
+							<td>约满</td>
+							<td>约满</td>
+							<td>约满</td>
+							<td>约满</td>
+							<td>约满</td>
+							<td>约满</td>
+							<td>约满</td>
+						</tr>
+						<tr>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+						</tr>
+					</table>
+				</div>
+				<div class="system_int_one_left_de_right">
+					<img src="img/icon-scheduling-right.jpg" class="button_right">
+					<div class="system_int_one_left_de_right_top"></div>
+					<div class="system_int_one_left_de_right_middle"></div>
+					<div class="system_int_one_left_de_right_bottom"></div>
+				</div>
+			    </div> 
+			    <div class="system_int_one_left_de_last">
+			    	<p><img src="img/icon-info.jpg">您还没有选择就诊日期</p>
+			    </div>
+			</div> 
+			<div class="system_int_one_right">
+				<div class="system_int_one_right_title">预约规划<span>(更新时间每日8：30更新)</span></div>
+				<div class="system_int_one_right_content">
+					<p>
+						<span class="title">预约周期：</span>
+						<span>7天</span>
+					</p>
+					<p>
+						<span class="title">放号时间：</span>
+						<span>8:30</span>
+					</p>
+					<p>
+						<span class="title">停挂时间：</span><span>下午14：00停止次日预约挂号（周五14：00后停挂至下周）</span>
+					</p>
+					<p>
+						<span class="title">退号时间：</span><span>就诊前一工作日14：00前取消</span>
+					</p>
+				</div>
+			</div>
+		</div> 
+		<div class="system_int_two">
+			<p>北京协和医院是一所位于北京市东城区，集医疗、科研、教学为一体的大型综合医院。它隶属于中国协和医科大学(2006年改为北京协和医学院/清华大学医学部)，是其临床医学院，同时也是中国医学科学院的临床医学研究所，中华人民共和国卫生部指定的诊治疑难重症的技术指导中心之一。北京协和医院在中国乃至世界享有盛名。医院成立于1921年。现任院长赵玉沛。北京协和医院是中国最早承担外宾医疗任务的单位，医院专门设立外宾和高干门诊部，开设专门的高干、外宾、特需病区。2006年7月28日被中国奥委会定为“国家队运动员医疗服务指定医院”。
+			</p>
+			<p>
+				北京协和医院是一所位于北京市东城区，集医疗、科研、教学为一体的大型综合医院。它隶属于中国协和医科大学(2006年改为北京协和医学院/清华大学医学部)，是其临床医学院，同时也是中国医学科学院的临床医学研究所，中华人民共和国卫生部指定的诊治疑难重症的技术指导中心之一。北京协和医院在中国乃至世界享有盛名。医院成立于1921年。现任院长赵玉沛。北京协和医院是中国最早承担外宾医疗任务的单位，医院专门设立外宾和高干门诊部，开设专门的高干、外宾、特需病区。2006年7月28日被中国奥委会定为“国家队运动员医疗服务指定医院”。
+			</p>
+			<p>
+				北京协和医院是一所位于北京市东城区，集医疗、科研、教学为一体的大型综合医院。它隶属于中国协和医科大学(2006年改为北京协和医学院/清华大学医学部)，是其临床医学院，同时也是中国医学科学院的临床医学研究所，中华人民共和国卫生部指定的诊治疑难重症的技术指导中心之一。北京协和医院在中国乃至世界享有盛名。医院成立于1921年。现任院长赵玉沛。北京协和医院是中国最早承担外宾医疗任务的单位，医院专门设立外宾和高干门诊部，开设专门的高干、外宾、特需病区。2006年7月28日被中国奥委会定为“国家队运动员医疗服务指定医院”。
+			</p>
+			<p>
+				北京协和医院是一所位于北京市东城区，集医疗、科研、教学为一体的大型综合医院。它隶属于中国协和医科大学(2006年改为北京协和医学院/清华大学医学部)，是其临床医学院，同时也是中国医学科学院的临床医学研究所，中华人民共和国卫生部指定的诊治疑难重症的技术指导中心之一。北京协和医院在中国乃至世界享有盛名。医院成立于1921年。现任院长赵玉沛。北京协和医院是中国最早承担外宾医疗任务的单位，医院专门设立外宾和高干门诊部，开设专门的高干、外宾、特需病区。2006年7月28日被中国奥委会定为“国家队运动员医疗服务指定医院”。
+			</p>
+		</div>
+		<div class="system_int_three">
+			<h1>北京协和医院挂号预约通知</h1>
+			<p>电话预约挂号：010-114（2小时）</p>
+			<p>
+			    网络预约挂号：http://www.bjguahao.gov.cn
+			    <div>根据卫生部8月5日通知卫生局部署8月20日工作，北京协和医院已完成部署，网络预约挂号建设，现将预约挂号流程公布如下，用户认真阅读须知</div>
+			</p>
+			<p>
+				一、预约时间范围：
+				<div>1.根据卫生部8月5日通知卫生局部署8月20日工作，北京协和医院已完成部署，网络预约挂号建设，现将预约挂号流程</div>
+				<div>2.根据卫生部8月5日通知卫生局部署8月20日工作</div>
+				<div>3.根据卫生部8月5日通知卫生局</div>
+			</p>
+			<p>
+				二、预约实名制：
+				<div>根据卫生部8月5日通知卫生局部署8月20日工作，北京协和医院已完成部署，网络预约挂号建设，现将预约挂号流程公布如下，用户认真阅读须知根据卫生部8月5日通知卫生局部署8月20日工作，北京协和医院已完成部署，网络预约挂号建设，现将预约挂号流程公布如下，用户认真阅读须知根据卫生部8月5日通知卫生局部署8月20日工作，北京协和医院已完成部署，网络预约挂号建设，现将预约挂号流程公布如下，用户认真阅读须知</div>
+			</p>
+			<p>
+				三、预约取号：
+				<div>1.根据卫生部8月5日通知卫生局部署8月20日工作，北京协和医院已完成部署，网络预约挂号建设，现将预约挂号流程</div>
+				<div>2.根据卫生部8月5日通知卫生局部署8月20日工作</div>
+				<div>3.根据卫生部8月5日通知卫生局</div>
+			</p>
+			<p>
+				四、医生停诊：
+				<div>根据卫生部8月5日通知卫生局部署8月20日工作，北京协和医院已完成部署，网络预约挂号建设，现将预约挂号流程公布如下，用户认真阅读须知</div>
+			</p>
+			<p>
+				五、取消预约：
+				<div>根据卫生部8月5日通知卫生局部署8月20日工作，北京协和医院已完成部署，网络预约挂号建设，现将预约挂号流程公布如下，用户认真阅读须知</div>
+			</p>
+			<p>
+				六、爽约处理：
+				<div>根据卫生部8月5日通知卫生局部署8月20日工作，北京协和医院已完成部署，网络预约挂号建设，现将预约挂号流程公布如下，用户认真阅读须知</div>
+			</p>
+			<p>
+				七、其他注意事项：
+				<div>1.根据卫生部8月5日通知卫生局部署8月20日工作，北京协和医院已完成部署，网络预约挂号建设，现将预约挂号流程</div>
+				<div>2.根据卫生部8月5日通知卫生局部署8月20日工作</div>
+			</p>
+		</div>
+		<div class="system_int_four">
+			<h1>停诊信息</h1>
+			<table>
+				<tr>
+					<td>日期</td>
+					<td>星期</td>
+					<td>时段</td>
+					<td>科室</td>
+					<td>特长</td>
+					<td>职称</td>
+					<td>挂号费</td>
+					<td>可挂号数</td>
+					<td>剩余号数</td>
+					<td>替换方式</td>
+				</tr>
+				<tr>
+					<td>2017-01-29</td>
+					<td>1</td>
+					<td>上午</td>
+					<td>呼吸内科门诊</td>
+					<td></td>
+					<td>主治医师</td>
+					<td>5.00</td>
+					<td>0</td>
+					<td>0</td>
+					<td>不可替换</td>
+				</tr>
+				<tr>
+					<td>2017-01-29</td>
+					<td>1</td>
+					<td>上午</td>
+					<td>呼吸内科门诊</td>
+					<td></td>
+					<td>主治医师</td>
+					<td>5.00</td>
+					<td>0</td>
+					<td>0</td>
+					<td>不可替换</td>
+				</tr>
+				<tr>
+					<td>2017-01-29</td>
+					<td>1</td>
+					<td>上午</td>
+					<td>呼吸内科门诊</td>
+					<td></td>
+					<td>主治医师</td>
+					<td>5.00</td>
+					<td>0</td>
+					<td>0</td>
+					<td>不可替换</td>
+				</tr>
+				<tr>
+					<td>2017-01-29</td>
+					<td>1</td>
+					<td>上午</td>
+					<td>呼吸内科门诊</td>
+					<td></td>
+					<td>主治医师</td>
+					<td>5.00</td>
+					<td>0</td>
+					<td>0</td>
+					<td>不可替换</td>
+				</tr>
+				<tr>
+					<td>2017-01-29</td>
+					<td>1</td>
+					<td>上午</td>
+					<td>呼吸内科门诊</td>
+					<td></td>
+					<td>主治医师</td>
+					<td>5.00</td>
+					<td>0</td>
+					<td>0</td>
+					<td>不可替换</td>
+				</tr>
+				<tr>
+					<td>2017-01-29</td>
+					<td>1</td>
+					<td>上午</td>
+					<td>呼吸内科门诊</td>
+					<td></td>
+					<td>主治医师</td>
+					<td>5.00</td>
+					<td>0</td>
+					<td>0</td>
+					<td>不可替换</td>
+				</tr>
+				<tr>
+					<td>2017-01-29</td>
+					<td>1</td>
+					<td>上午</td>
+					<td>呼吸内科门诊</td>
+					<td></td>
+					<td>主治医师</td>
+					<td>5.00</td>
+					<td>0</td>
+					<td>0</td>
+					<td>不可替换</td>
+				</tr>
+				<tr>
+					<td>2017-01-29</td>
+					<td>1</td>
+					<td>上午</td>
+					<td>呼吸内科门诊</td>
+					<td></td>
+					<td>主治医师</td>
+					<td>5.00</td>
+					<td>0</td>
+					<td>0</td>
+					<td>不可替换</td>
+				</tr>
+				<tr>
+					<td>2017-01-29</td>
+					<td>1</td>
+					<td>上午</td>
+					<td>呼吸内科门诊</td>
+					<td></td>
+					<td>主治医师</td>
+					<td>5.00</td>
+					<td>0</td>
+					<td>0</td>
+					<td>不可替换</td>
+				</tr>
+				<tr>
+					<td>2017-01-29</td>
+					<td>1</td>
+					<td>上午</td>
+					<td>呼吸内科门诊</td>
+					<td></td>
+					<td>主治医师</td>
+					<td>5.00</td>
+					<td>0</td>
+					<td>0</td>
+					<td>不可替换</td>
+				</tr>
+				<tr>
+					<td>2017-01-29</td>
+					<td>1</td>
+					<td>上午</td>
+					<td>呼吸内科门诊</td>
+					<td></td>
+					<td>主治医师</td>
+					<td>5.00</td>
+					<td>0</td>
+					<td>0</td>
+					<td>不可替换</td>
+				</tr>
+				<tr>
+					<td>2017-01-29</td>
+					<td>1</td>
+					<td>上午</td>
+					<td>呼吸内科门诊</td>
+					<td></td>
+					<td>主治医师</td>
+					<td>5.00</td>
+					<td>0</td>
+					<td>0</td>
+					<td>不可替换</td>
+				</tr>
+				<tr>
+					<td>2017-01-29</td>
+					<td>1</td>
+					<td>上午</td>
+					<td>呼吸内科门诊</td>
+					<td></td>
+					<td>主治医师</td>
+					<td>5.00</td>
+					<td>0</td>
+					<td>0</td>
+					<td>不可替换</td>
+				</tr>
+				<tr>
+					<td>2017-01-29</td>
+					<td>1</td>
+					<td>上午</td>
+					<td>呼吸内科门诊</td>
+					<td></td>
+					<td>主治医师</td>
+					<td>5.00</td>
+					<td>0</td>
+					<td>0</td>
+					<td>不可替换</td>
+				</tr>
+				<tr>
+					<td>2017-01-29</td>
+					<td>1</td>
+					<td>上午</td>
+					<td>呼吸内科门诊</td>
+					<td></td>
+					<td>主治医师</td>
+					<td>5.00</td>
+					<td>0</td>
+					<td>0</td>
+					<td>不可替换</td>
+				</tr>
+				<tr>
+					<td>2017-01-29</td>
+					<td>1</td>
+					<td>上午</td>
+					<td>呼吸内科门诊</td>
+					<td></td>
+					<td>主治医师</td>
+					<td>5.00</td>
+					<td>0</td>
+					<td>0</td>
+					<td>不可替换</td>
+				</tr>
+				<tr>
+					<td>2017-01-29</td>
+					<td>1</td>
+					<td>上午</td>
+					<td>呼吸内科门诊</td>
+					<td></td>
+					<td>主治医师</td>
+					<td>5.00</td>
+					<td>0</td>
+					<td>0</td>
+					<td>不可替换</td>
+				</tr>
+				<tr>
+					<td>2017-01-29</td>
+					<td>1</td>
+					<td>上午</td>
+					<td>呼吸内科门诊</td>
+					<td></td>
+					<td>主治医师</td>
+					<td>5.00</td>
+					<td>0</td>
+					<td>0</td>
+					<td>不可替换</td>
+				</tr>
+				<tr>
+					<td>2017-01-29</td>
+					<td>1</td>
+					<td>上午</td>
+					<td>呼吸内科门诊</td>
+					<td></td>
+					<td>主治医师</td>
+					<td>5.00</td>
+					<td>0</td>
+					<td>0</td>
+					<td>不可替换</td>
+				</tr>
+				<tr>
+					<td>2017-01-29</td>
+					<td>1</td>
+					<td>上午</td>
+					<td>呼吸内科门诊</td>
+					<td></td>
+					<td>主治医师</td>
+					<td>5.00</td>
+					<td>0</td>
+					<td>0</td>
+					<td>不可替换</td>
+				</tr>
+				<tr>
+					<td>2017-01-29</td>
+					<td>1</td>
+					<td>上午</td>
+					<td>呼吸内科门诊</td>
+					<td></td>
+					<td>主治医师</td>
+					<td>5.00</td>
+					<td>0</td>
+					<td>0</td>
+					<td>不可替换</td>
+				</tr>
+			</table>
+		</div>
+		<div class="system_int_five">
+			<div class="system_int_five_content">
+				<div>
+					<p>预约识别码<input type="text" name=""><button>查询订单</button></p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="footer">
+		Coptright&copy;版权归慕课网所有
+	</div>
+</body> 
+<script type="text/javascript" src="js/js.js"></script>
+</html>
